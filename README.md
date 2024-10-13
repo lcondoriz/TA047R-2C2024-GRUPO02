@@ -25,8 +25,6 @@ TA047R-2C2024-GRUPOXX/
 │
 ├── datasets/
 │   ├── raw/
-│   ├── processed/
-│   └── generated/
 │
 ├── models/
 │   ├── classification/
@@ -51,8 +49,7 @@ TA047R-2C2024-GRUPOXX/
 
 - **datasets/**: Contiene los conjuntos de datos utilizados en el trabajo.
   - `raw/`: Datos originales.
-  - `processed/`: Datos preprocesados.
-  - `generated/`: Nuevos conjuntos de datos generados durante el análisis.
+  - `models/`: Datos preprocesados.
 
 - **models/**: Modelos entrenados guardados en archivos `.joblib` o `.pickle`.
 
@@ -65,10 +62,10 @@ TA047R-2C2024-GRUPOXX/
 
 ## Autores
 
-- **Integrante 1:**
-- **Integrante 2:**
-- **Integrante 3:**
-- **Integrante 4:**
+- **Integrante 1:** Célestine Raveneau
+- **Integrante 2:** Florian Escaffre
+- **Integrante 3:** Juan Gomez
+- **Integrante 4:** Luis Condori
 
 ## Licencia
 MIT License
