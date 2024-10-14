@@ -57,6 +57,9 @@ TA047R-2C2024-GRUPOXX/
 - **Ejercicio 3**: Regresión.
 - **Ejercicio 4**: Agrupamiento (Clustering).
 
+## Informe
+https://docs.google.com/document/d/1UVnkvfr_ep_1ND5zkvxAs0TP4iFFirIZ4D13XdhLo1g/edit?usp=sharing
+
 ## Autores
 
 - **Integrante 1:** Célestine Raveneau
