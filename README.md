@@ -25,6 +25,7 @@ TA047R-2C2024-GRUPOXX/
 │
 ├── datasets/
 │   ├── raw/
+│   └── generated/
 │
 ├── models/
 │   ├── classification/
@@ -33,9 +34,6 @@ TA047R-2C2024-GRUPOXX/
 │
 ├── reports/
 │   └── TA047R_TP1_GRUPOXX_REPORTE.pdf
-│
-├── presentation/
-│   └── TA047R_TP1_GRUPOXX_PRESENTACION.pptx
 |
 ├── TA047R_TP1_GRUPOXX_ENTREGA_EJ1.ipynb
 ├── TA047R_TP1_GRUPOXX_ENTREGA_EJ2.ipynb
@@ -49,7 +47,6 @@ TA047R-2C2024-GRUPOXX/
 
 - **datasets/**: Contiene los conjuntos de datos utilizados en el trabajo.
   - `raw/`: Datos originales.
-  - `models/`: Datos preprocesados.
 
 - **models/**: Modelos entrenados guardados en archivos `.joblib` o `.pickle`.
 
