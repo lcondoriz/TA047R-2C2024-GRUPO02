@@ -58,7 +58,10 @@ TA047R-2C2024-GRUPOXX/
 - **Ejercicio 4**: Agrupamiento (Clustering).
 
 ## Informe
-https://docs.google.com/document/d/1UVnkvfr_ep_1ND5zkvxAs0TP4iFFirIZ4D13XdhLo1g/edit?usp=sharing
+[Informe Google Docs](https://docs.google.com/document/d/1UVnkvfr_ep_1ND5zkvxAs0TP4iFFirIZ4D13XdhLo1g/edit?usp=sharing)
+
+## Presentación
+[Presentación Canva](https://www.canva.com/design/DAGTeWZkyM8/2MwUSJSskkUc9cg2Cnf5xw/edit)
 
 ## Autores
 
