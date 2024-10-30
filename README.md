@@ -1,67 +1,35 @@
-# TA047R-2C2024-GRUPO02 - Trabajo Práctico N°1
+# Trabajo Prácticos Ciencia de Datos - 2C2024
 
-75.06/95.58 Organización de Datos - 2C2024
+<br>
+<p align="center">
+  <!---<img src="https://www.estudiaradistancia.com.ar/logos/original/logo-universidad-de-buenos-aires.webp" height=80 />--->
+  <img src="https://raw.githubusercontent.com/MiguelV5/MiguelV5/main/misc/logofiubatransparent_partialwhite.png" height="180"/>
+</p>
+<br>
+
+---
+
+<br>
+<p align="center">
+<font size="+2">
+75.06/95.58 Ciencia de Datos (ex Organización de Datos) - 2C2024
 
 Grupo 02
 
 Cátedra Ing. Rodriguez, Juan Manuel
 
+</font>
+</p>
+
+---
+
 ## Descripción
 
-Este repositorio contiene la solución al Trabajo Práctico N°1 de la materia **Organización de Datos**, correspondiente al segundo cuatrimestre de 2024. El objetivo del trabajo es aplicar técnicas de análisis exploratorio, preprocesamiento de datos, agrupamiento, clasificación y regresión
+- **TP1**: Contiene la solución al Trabajo Práctico N°1 de la materia **Ciencia de Datos**, correspondiente al segundo cuatrimestre de 2024. El objetivo del trabajo es aplicar técnicas de análisis exploratorio, preprocesamiento de datos, agrupamiento, clasificación y regresión
 
-## Descripción Dataset
+- **TP2**: Conjunto de datos que contiene una serie de casos de uso (user stories) de distintos proyectos y el número de story points que tiene asignado cada
+uno. Los story points indican la complejidad de cada tarea. El objetivo será predecir el story point de cada user story dado el texto que lo representa.
 
-- **EJ1**: Conjunto de datos sobre el uso de taxis Yellow Cab en USA durante el año 2023. [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- **EJ2**: Conjunto de datos de distintas estaciones meteorológicas de Australia. [Rain in Australia](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
-- **EJ3**: Conjunto de datos de alojamientos de la plataforma AirBnB. [Inside Airbnb](https://insideairbnb.com/get-the-data/)
-- **EJ4**: Conjunto de datos que contiene información sobre algunos tracks
-(canciones) de Spotify. [Spotify Tracks](https://drive.google.com/drive/folders/1ycMEDGJTg38MRPjCzxyL_l4XLrwp66fn)
-
-## Estructura del Repositorio
-
-```plaintext
-TA047R-2C2024-GRUPOXX/
-│
-├── datasets/
-│   ├── raw/
-│   └── generated/
-│
-├── models/
-│   ├── classification/
-│   ├── regression/
-│   └── clustering/
-│
-├── reports/
-│   └── TA047R_TP1_GRUPOXX_REPORTE.pdf
-|
-├── TA047R_TP1_GRUPOXX_ENTREGA_EJ1.ipynb
-├── TA047R_TP1_GRUPOXX_ENTREGA_EJ2.ipynb
-├── TA047R_TP1_GRUPOXX_ENTREGA_EJ3.ipynb
-├── TA047R_TP1_GRUPOXX_ENTREGA_EJ4.ipynb
-|
-└── README.md
-```
-
-### Descripción de Carpetas
-
-- **datasets/**: Contiene los conjuntos de datos utilizados en el trabajo.
-  - `raw/`: Datos originales.
-
-- **models/**: Modelos entrenados guardados en archivos `.joblib` o `.pickle`.
-
-## Notebooks Incluidos
-
-- **Ejercicio 1**: Análisis Exploratorio de Datos.
-- **Ejercicio 2**: Modelos de Clasificación Binaria.
-- **Ejercicio 3**: Regresión.
-- **Ejercicio 4**: Agrupamiento (Clustering).
-
-## Informe
-[Informe Google Docs](https://docs.google.com/document/d/1UVnkvfr_ep_1ND5zkvxAs0TP4iFFirIZ4D13XdhLo1g/edit?usp=sharing)
-
-## Presentación
-[Presentación Canva](https://www.canva.com/design/DAGTeWZkyM8/2MwUSJSskkUc9cg2Cnf5xw/edit)
 
 ## Autores
 
