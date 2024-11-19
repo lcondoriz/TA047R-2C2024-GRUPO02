@@ -1,0 +1,50 @@
+[
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "fit_intercept": true
+        },
+        "best_score": 2.8175592013159134,
+        "rmse_train": 2.511256377597955,
+        "rmse_test": 2.529648394697759
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.1
+        },
+        "best_score": 3.0708085073870266,
+        "rmse_train": 2.933789401638188,
+        "rmse_test": 2.8741537004257247
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "n_estimators": 80,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_depth": 50,
+            "bootstrap": true
+        },
+        "best_score": 2.7142134794509154,
+        "rmse_train": 1.56703016366774,
+        "rmse_test": 2.40780782956182
+    },
+    {
+        "model": "XGBoost",
+        "best_params": {
+            "subsample": 0.7,
+            "reg_lambda": 0,
+            "reg_alpha": 0,
+            "n_estimators": 150,
+            "max_depth": 15,
+            "learning_rate": 0.05,
+            "gamma": 0,
+            "colsample_bytree": 1.0
+        },
+        "best_score": 2.7232285160362317,
+        "rmse_train": 1.1120447097826929,
+        "rmse_test": 2.3931004825811146
+    }
+]
