@@ -5272,5 +5272,1315 @@
             "wall_time": 164.3
         },
         "n_iter": 10
+    },
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__title_bow__min_df": 1,
+            "preprocessor__title_bow__max_features": 300,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": true,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": 300,
+            "preprocessor__description_bow__max_df": 0.8,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_intercept": true
+        },
+        "best_score": 2.742398821672412,
+        "rmse_train": 2.383959066142569,
+        "rmse_test": 2.689858894948199
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.9,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.8197174864304535,
+        "rmse_train": 2.823980236497805,
+        "rmse_test": 2.8346857035612754,
+        "seed": 42,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__title_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__title_bow__binary": [
+                true,
+                false
+            ],
+            "preprocessor__description_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__description_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__description_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__description_bow__binary": [
+                true,
+                false
+            ],
+            "model__alpha": [
+                1e-05,
+                0.0001,
+                0.001,
+                0.1,
+                1,
+                10,
+                100,
+                1000
+            ],
+            "model__fit_prior": [
+                true,
+                false
+            ]
+        },
+        "time": {
+            "cpu_time": 10.3,
+            "wall_time": 70.6
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.9,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.8197174864304535,
+        "rmse_train": 2.823980236497805,
+        "rmse_test": 2.8346857035612754,
+        "seed": 42,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__title_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__title_bow__binary": [
+                true,
+                false
+            ],
+            "preprocessor__description_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__description_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__description_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__description_bow__binary": [
+                true,
+                false
+            ],
+            "model__alpha": [
+                1e-05,
+                0.0001,
+                0.001,
+                0.1,
+                1,
+                10,
+                100,
+                1000
+            ],
+            "model__fit_prior": [
+                true,
+                false
+            ]
+        },
+        "time": {
+            "cpu_time": 10.3,
+            "wall_time": 70.6
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 300,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__max_features": 5000,
+            "model__n_estimators": 200,
+            "model__min_samples_split": 2,
+            "model__min_samples_leaf": 4,
+            "model__max_depth": 30,
+            "model__ccp_alpha": 0.0
+        },
+        "best_score": 2.5581231484256706,
+        "rmse_train": 1.8038251538330836,
+        "rmse_test": 2.688588059735108,
+        "seed": 4222,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                20,
+                50,
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                20,
+                30,
+                50,
+                100
+            ],
+            "model__min_samples_split": [
+                2,
+                5,
+                10
+            ],
+            "model__min_samples_leaf": [
+                1,
+                2,
+                4
+            ],
+            "model__ccp_alpha": [
+                0.0,
+                0.1,
+                0.2
+            ]
+        },
+        "time": {
+            "cpu_time": 56.5,
+            "wall_time": 620.1
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "XGBRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 500,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__max_features": 1000,
+            "model__subsample": 0.7,
+            "model__n_estimators": 200,
+            "model__max_depth": 20,
+            "model__learning_rate": 0.01,
+            "model__lambda": 1,
+            "model__gamma": 0.2,
+            "model__colsample_bytree": 0.6,
+            "model__alpha": 0
+        },
+        "best_score": 2.6930071931161126,
+        "rmse_train": 1.6637862023003536,
+        "rmse_test": 2.5762766406793247,
+        "seed": 7777,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                200,
+                300,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                500,
+                700,
+                1000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                15,
+                20
+            ],
+            "model__learning_rate": [
+                0.01,
+                0.05,
+                0.1
+            ],
+            "model__subsample": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__colsample_bytree": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__gamma": [
+                0,
+                0.1,
+                0.2
+            ],
+            "model__alpha": [
+                0,
+                0.1,
+                1
+            ],
+            "model__lambda": [
+                1,
+                1.5,
+                2
+            ]
+        },
+        "time": {
+            "cpu_time": 393.1,
+            "wall_time": 168.4
+        },
+        "n_iter": 10
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.9,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.8197174864304535,
+        "rmse_train": 2.823980236497805,
+        "rmse_test": 2.8346857035612754,
+        "seed": 42,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__title_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__title_bow__binary": [
+                true,
+                false
+            ],
+            "preprocessor__description_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__description_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__description_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__description_bow__binary": [
+                true,
+                false
+            ],
+            "model__alpha": [
+                1e-05,
+                0.0001,
+                0.001,
+                0.1,
+                1,
+                10,
+                100,
+                1000
+            ],
+            "model__fit_prior": [
+                true,
+                false
+            ]
+        },
+        "time": {
+            "cpu_time": 10.5,
+            "wall_time": 73.8
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.9,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.8197174864304535,
+        "rmse_train": 2.823980236497805,
+        "rmse_test": 2.8346857035612754,
+        "seed": 42,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__title_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__title_bow__binary": [
+                true,
+                false
+            ],
+            "preprocessor__description_bow__max_features": [
+                null,
+                100,
+                500,
+                1000
+            ],
+            "preprocessor__description_bow__max_df": [
+                0.8,
+                0.9,
+                1.0
+            ],
+            "preprocessor__description_bow__min_df": [
+                1,
+                2,
+                3
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english",
+                null
+            ],
+            "preprocessor__description_bow__binary": [
+                true,
+                false
+            ],
+            "model__alpha": [
+                1e-05,
+                0.0001,
+                0.001,
+                0.1,
+                1,
+                10,
+                100,
+                1000
+            ],
+            "model__fit_prior": [
+                true,
+                false
+            ]
+        },
+        "time": {
+            "cpu_time": 9.9,
+            "wall_time": 69.6
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 300,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__max_features": 5000,
+            "model__n_estimators": 200,
+            "model__min_samples_split": 2,
+            "model__min_samples_leaf": 4,
+            "model__max_depth": 30,
+            "model__ccp_alpha": 0.0
+        },
+        "best_score": 2.5581231484256706,
+        "rmse_train": 1.8038251538330836,
+        "rmse_test": 2.688588059735108,
+        "seed": 4222,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                20,
+                50,
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                20,
+                30,
+                50,
+                100
+            ],
+            "model__min_samples_split": [
+                2,
+                5,
+                10
+            ],
+            "model__min_samples_leaf": [
+                1,
+                2,
+                4
+            ],
+            "model__ccp_alpha": [
+                0.0,
+                0.1,
+                0.2
+            ]
+        },
+        "time": {
+            "cpu_time": 54.4,
+            "wall_time": 606.2
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 300,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__max_features": 5000,
+            "model__n_estimators": 200,
+            "model__min_samples_split": 2,
+            "model__min_samples_leaf": 4,
+            "model__max_depth": 30,
+            "model__ccp_alpha": 0.0
+        },
+        "best_score": 2.5581231484256706,
+        "rmse_train": 1.8038251538330836,
+        "rmse_test": 2.688588059735108,
+        "seed": 4222,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                300,
+                500,
+                1000,
+                5000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                20,
+                50,
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                20,
+                30,
+                50,
+                100
+            ],
+            "model__min_samples_split": [
+                2,
+                5,
+                10
+            ],
+            "model__min_samples_leaf": [
+                1,
+                2,
+                4
+            ],
+            "model__ccp_alpha": [
+                0.0,
+                0.1,
+                0.2
+            ]
+        },
+        "time": {
+            "cpu_time": 54.4,
+            "wall_time": 606.2
+        },
+        "n_iter": 100
+    },
+    {
+        "model": "XGBRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 500,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__max_features": 1000,
+            "model__subsample": 0.7,
+            "model__n_estimators": 200,
+            "model__max_depth": 20,
+            "model__learning_rate": 0.01,
+            "model__lambda": 1,
+            "model__gamma": 0.2,
+            "model__colsample_bytree": 0.6,
+            "model__alpha": 0
+        },
+        "best_score": 2.6930071931161126,
+        "rmse_train": 1.6637862023003536,
+        "rmse_test": 2.5762766406793247,
+        "seed": 7777,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                200,
+                300,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                500,
+                700,
+                1000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                15,
+                20
+            ],
+            "model__learning_rate": [
+                0.01,
+                0.05,
+                0.1
+            ],
+            "model__subsample": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__colsample_bytree": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__gamma": [
+                0,
+                0.1,
+                0.2
+            ],
+            "model__alpha": [
+                0,
+                0.1,
+                1
+            ],
+            "model__lambda": [
+                1,
+                1.5,
+                2
+            ]
+        },
+        "time": {
+            "cpu_time": 400.7,
+            "wall_time": 425.7
+        },
+        "n_iter": 30
+    },
+    {
+        "model": "XGBRegressor",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__max_features": 500,
+            "preprocessor__description_bow__stop_words": "english",
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__max_features": 1000,
+            "model__subsample": 0.7,
+            "model__n_estimators": 200,
+            "model__max_depth": 20,
+            "model__learning_rate": 0.01,
+            "model__lambda": 1,
+            "model__gamma": 0.2,
+            "model__colsample_bytree": 0.6,
+            "model__alpha": 0
+        },
+        "best_score": 2.6930071931161126,
+        "rmse_train": 1.6637862023003536,
+        "rmse_test": 2.5762766406793247,
+        "seed": 7777,
+        "transformers": {
+            "title_bow": [
+                "TfidfVectorizer()",
+                "title"
+            ],
+            "description_bow": [
+                "TfidfVectorizer()",
+                "description"
+            ],
+            "project_ohe": [
+                "OneHotEncoder(drop='first')",
+                [
+                    "project"
+                ]
+            ]
+        },
+        "hyperparameters": {
+            "preprocessor__title_bow__max_features": [
+                200,
+                300,
+                500,
+                1000
+            ],
+            "preprocessor__title_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__title_bow__stop_words": [
+                "english"
+            ],
+            "preprocessor__description_bow__max_features": [
+                500,
+                700,
+                1000
+            ],
+            "preprocessor__description_bow__ngram_range": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "preprocessor__description_bow__stop_words": [
+                "english"
+            ],
+            "model__n_estimators": [
+                100,
+                200
+            ],
+            "model__max_depth": [
+                3,
+                5,
+                8,
+                10,
+                15,
+                20
+            ],
+            "model__learning_rate": [
+                0.01,
+                0.05,
+                0.1
+            ],
+            "model__subsample": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__colsample_bytree": [
+                0.6,
+                0.7,
+                0.8
+            ],
+            "model__gamma": [
+                0,
+                0.1,
+                0.2
+            ],
+            "model__alpha": [
+                0,
+                0.1,
+                1
+            ],
+            "model__lambda": [
+                1,
+                1.5,
+                2
+            ]
+        },
+        "time": {
+            "cpu_time": 400.7,
+            "wall_time": 425.7
+        },
+        "n_iter": 30
     }
 ]

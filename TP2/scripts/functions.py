@@ -77,3 +77,25 @@ def obtener_transformadores(preprocessor):
     """
     transformers = preprocessor.get_params()['transformers']
     return {name: (str(transformer), columns) for name, transformer, columns in transformers}
+
+import os
+from joblib import dump
+
+def save_model(model, directory, filename):
+    """
+    Guarda un modelo en un archivo especificado dentro de un directorio.
+    Parámetros:
+    model (object): El modelo que se desea guardar.
+    directory (str): El directorio donde se guardará el archivo del modelo.
+    filename (str): El nombre del archivo en el que se guardará el modelo.
+    Esta función crea el directorio especificado si no existe y luego guarda el modelo en el archivo especificado dentro de ese directorio.
+    """
+    # Crea el directorio si no existe
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
+    # Construye la ruta completa del archivo
+    filepath = os.path.join(directory, filename)
+    
+    # Guarda el modelo en la ruta especificada
+    dump(model, filepath)
