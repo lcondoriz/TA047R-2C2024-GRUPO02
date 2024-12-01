@@ -1,0 +1,363 @@
+[
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "fit_intercept": true
+        },
+        "best_score": 2.8175592013159134,
+        "rmse_train": 2.511256377597955,
+        "rmse_test": 2.529648394697759
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.1
+        },
+        "best_score": 3.0708085073870266,
+        "rmse_train": 2.933789401638188,
+        "rmse_test": 2.8741537004257247
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "n_estimators": 80,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_depth": 50,
+            "bootstrap": true
+        },
+        "best_score": 2.7142134794509154,
+        "rmse_train": 1.56703016366774,
+        "rmse_test": 2.40780782956182
+    },
+    {
+        "model": "XGBoost",
+        "best_params": {
+            "subsample": 0.7,
+            "reg_lambda": 0,
+            "reg_alpha": 0,
+            "n_estimators": 150,
+            "max_depth": 15,
+            "learning_rate": 0.05,
+            "gamma": 0,
+            "colsample_bytree": 1.0
+        },
+        "best_score": 2.7232285160362317,
+        "rmse_train": 1.1120447097826929,
+        "rmse_test": 2.3931004825811146
+    },
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "fit_intercept": true
+        },
+        "best_score": 2.847599903746124,
+        "rmse_train": 2.518238276285323,
+        "rmse_test": 2.5167788899163415
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.1
+        },
+        "best_score": 3.0799324672132653,
+        "rmse_train": 2.9507025552604,
+        "rmse_test": 2.8359134442523346
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "n_estimators": 80,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_depth": 50,
+            "bootstrap": true
+        },
+        "best_score": 2.7409417962264597,
+        "rmse_train": 1.588232146563885,
+        "rmse_test": 2.3887766129069528
+    },
+    {
+        "model": "XGBoost",
+        "best_params": {
+            "subsample": 0.7,
+            "reg_lambda": 0,
+            "reg_alpha": 0.1,
+            "n_estimators": 50,
+            "max_depth": 10,
+            "learning_rate": 0.05,
+            "gamma": 0,
+            "colsample_bytree": 0.7
+        },
+        "best_score": 2.7189295915482274,
+        "rmse_train": 1.9270197288554451,
+        "rmse_test": 2.4393448745934303
+    },
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "fit_intercept": true
+        },
+        "best_score": 2.813068750392799,
+        "rmse_train": 2.519485213073479,
+        "rmse_test": 2.509699747308708
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.6
+        },
+        "best_score": 3.0679087936005285,
+        "rmse_train": 3.0051380052136953,
+        "rmse_test": 2.816542453506615
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "n_estimators": 80,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_depth": 50,
+            "bootstrap": true
+        },
+        "best_score": 2.7363614155323552,
+        "rmse_train": 1.5470257398037937,
+        "rmse_test": 2.3923052940268783
+    },
+    {
+        "model": "XGBoost",
+        "best_params": {
+            "subsample": 1.0,
+            "reg_lambda": 0.1,
+            "reg_alpha": 0.1,
+            "n_estimators": 150,
+            "max_depth": 10,
+            "learning_rate": 0.01,
+            "gamma": 0,
+            "colsample_bytree": 0.7
+        },
+        "best_score": 2.769312644381247,
+        "rmse_train": 2.05615956531093,
+        "rmse_test": 2.465674906510775
+    },
+    {
+        "model": "LinearRegression",
+        "best_params": {
+            "fit_intercept": true
+        },
+        "best_score": 2.813068750392799,
+        "rmse_train": 2.519485213073479,
+        "rmse_test": 2.509699747308708
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.6
+        },
+        "best_score": 3.0679087936005285,
+        "rmse_train": 3.0051380052136953,
+        "rmse_test": 2.816542453506615
+    },
+    {
+        "model": "RandomForestRegressor",
+        "best_params": {
+            "warm_start": false,
+            "oob_score": false,
+            "n_estimators": 80,
+            "min_weight_fraction_leaf": 0.0,
+            "min_samples_split": 20,
+            "min_samples_leaf": 5,
+            "max_features": null,
+            "max_depth": 20,
+            "ccp_alpha": 0.01
+        },
+        "best_score": 2.7049945723302327,
+        "rmse_train": 2.3104148487166007,
+        "rmse_test": 2.3954746183675377
+    },
+    {
+        "model": "XGBoost",
+        "best_params": {
+            "subsample": 0.7,
+            "reg_lambda": 20,
+            "reg_alpha": 10,
+            "n_estimators": 150,
+            "min_child_weight": 5,
+            "max_depth": 6,
+            "learning_rate": 0.05,
+            "gamma": 20,
+            "colsample_bytree": 0.6
+        },
+        "best_score": 2.697754722056117,
+        "rmse_train": 2.400184693147332,
+        "rmse_test": 2.4017236894374427
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": false,
+            "alpha": 0.30000000000000004
+        },
+        "best_score": 2.8575729140718735,
+        "rmse_train": 2.331878690637251,
+        "rmse_test": 2.6187010017771906
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "fit_prior": true,
+            "alpha": 0.7000000000000001
+        },
+        "best_score": 2.9206648616520168,
+        "rmse_train": 2.682721318155517,
+        "rmse_test": 2.686228356787659
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": null,
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__title_bow__min_df": 1,
+            "preprocessor__title_bow__max_features": null,
+            "preprocessor__title_bow__max_df": 0.8,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__min_df": 1,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.8,
+            "preprocessor__description_bow__binary": false,
+            "model__fit_prior": false,
+            "model__alpha": 0.8
+        },
+        "best_score": 2.8577938666885774,
+        "rmse_train": 2.4925839371111063,
+        "rmse_test": 2.6128940257640414
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": null,
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__title_bow__min_df": 1,
+            "preprocessor__title_bow__max_features": null,
+            "preprocessor__title_bow__max_df": 0.8,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__description_bow__min_df": 1,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.8,
+            "preprocessor__description_bow__binary": false,
+            "model__fit_prior": false,
+            "model__alpha": 0.8
+        },
+        "best_score": 2.8577938666885774,
+        "rmse_train": 2.4925839371111063,
+        "rmse_test": 2.6128940257640414
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": false,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 3,
+            "preprocessor__description_bow__max_features": null,
+            "preprocessor__description_bow__max_df": 0.9,
+            "preprocessor__description_bow__binary": true,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.8197174864304535,
+        "rmse_train": 2.823980236497805,
+        "rmse_test": 2.8346857035612754
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": true,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 2,
+            "preprocessor__description_bow__max_features": 1000,
+            "preprocessor__description_bow__max_df": 1.0,
+            "preprocessor__description_bow__binary": false,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.780506438534789,
+        "rmse_train": 2.783606101709721,
+        "rmse_test": 2.9330072699483067,
+        "seed": 4207
+    },
+    {
+        "model": "MultinomialNB",
+        "best_params": {
+            "preprocessor__title_bow__stop_words": "english",
+            "preprocessor__title_bow__ngram_range": [
+                1,
+                2
+            ],
+            "preprocessor__title_bow__min_df": 2,
+            "preprocessor__title_bow__max_features": 100,
+            "preprocessor__title_bow__max_df": 1.0,
+            "preprocessor__title_bow__binary": true,
+            "preprocessor__description_bow__stop_words": null,
+            "preprocessor__description_bow__ngram_range": [
+                1,
+                1
+            ],
+            "preprocessor__description_bow__min_df": 2,
+            "preprocessor__description_bow__max_features": 1000,
+            "preprocessor__description_bow__max_df": 1.0,
+            "preprocessor__description_bow__binary": false,
+            "model__fit_prior": true,
+            "model__alpha": 1000
+        },
+        "best_score": 2.779429843337003,
+        "rmse_train": 2.786982138339128,
+        "rmse_test": 2.9318561681496758,
+        "seed": 4207,
+        "preprocessor": [
+            [
+                "title_bow",
+                
