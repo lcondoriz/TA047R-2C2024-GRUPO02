@@ -38,6 +38,28 @@ uno. Los story points indican la complejidad de cada tarea. El objetivo será pr
 - **Integrante 3:** Juan Gomez
 - **Integrante 4:** Luis Condori
 
+## Conda
+
+1. **Crea el entorno desde el archivo**: Crear el entorno utilizando el archivo `environment.yml`:
+   ```bash
+   conda env create -f environment.yml
+   ```
+
+2. **Activa el nuevo entorno**: Activa el entorno:
+   ```bash
+   conda activate TP2-CD
+   ```
+
+3. **Verifica la instalación**: Paquetes instalados:
+   ```bash
+   conda list
+   ```
+
+Instalación de paquetes adicionales:
+```bash
+conda env update -f environment.yml
+```
+
 ## Licencia
 MIT License
 Copyright (c) 2024
